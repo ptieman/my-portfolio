@@ -1,4 +1,5 @@
 import React from "react";
+import styles from './navbar.scss'
 
 export default function Nav() {
 
@@ -6,10 +7,14 @@ export default function Nav() {
   <>
   <div className="sidebar">
     <nav>
-      <ul>
+      <ul className="buttonlist">
+      <li>
+          <a href='/'>
+            <button className="navbutton" >Home</button></a>
+        </li>
         <li>
           <a href='/projects'>
-            <button>Projects</button></a>
+            <button className="navbutton">Projects</button></a>
         </li>
       </ul>
     </nav>

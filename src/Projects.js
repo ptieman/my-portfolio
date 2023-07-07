@@ -4,6 +4,7 @@ import GrowSmart from './growsmart1.jpg';
 import Ghibli from './ghibli.png';
 import Dropdown from './dropdown.png';
 import Navigation from './navigation.png';
+import Nav from './navbar/navbar';
 
 
 export default function Projects() {
@@ -44,6 +45,7 @@ export default function Projects() {
 
     
     <section>
+      <Nav />
         <h3 >Professional Contributions</h3>
         {professionalProjectsData.map((project) => (
       <div key={project.id} >
