@@ -8,12 +8,17 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { sendToVercelAnalytics } from './vitals';
+import Projects from './Projects';
 
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />
+  },
+  {
+    path: "/projects",
+    element: <Projects />
   }
 ])
 ReactDOM.createRoot(document.getElementById("root")).render(
