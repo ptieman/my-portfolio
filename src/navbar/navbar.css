@@ -1,10 +1,17 @@
 
-  
+
   .sidebar {
     display: flex;
     flex-direction: column;
-    width: 200px; /* Adjust the width of the sidebar as needed */
-    background-color: blue;
+    width: 200px; 
+  }
+
+  .navbar a {
+    color: blue;
+  }
+
+  .navbar a.ative {
+    color: red;
   }
 
 
@@ -13,7 +20,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 10px;
+  margin-right: 20px;
   text-decoration: none;
   list-style: none;
 }

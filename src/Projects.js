@@ -49,8 +49,7 @@ export default function Projects() {
         <h3 >Professional Contributions</h3>
         {professionalProjectsData.map((project) => (
       <div key={project.id} >
-        <div className="image-container">
-        {/* <h3 className={styles.title}>{project.title}</h3> */}
+        <div >
         <img src={project.imageUrl} alt={project.description}/>
         </div>
         <p>{project.description}</p>
@@ -72,7 +71,7 @@ export default function Projects() {
         <p>{project.description}</p>
         <div>
       <a href={project.githubUrl}>
-      <button  >View on Github</button>
+      <button>View on Github</button>
     </a>
     </div>
       </div> 
