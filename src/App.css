@@ -4,6 +4,14 @@
   margin-top: 50px;
 }
 
+.name {
+  font-family: 'Ysabeau SC', sans-serif;
+ 
+}
+
+.bio{
+ font-family: 'Libre Caslon Text';
+}
 .sociallink {
   text-decoration: none;
   color: black;
@@ -21,3 +29,8 @@
   flex-direction: column;
 }
 
+.socialdescriptions{
+  margin-left: 30px;
+  margin-top: -25px;
+  font-family: 'Libre Caslon Text';
+}

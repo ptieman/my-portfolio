@@ -6,15 +6,6 @@
     width: 200px; 
   }
 
-  .navbar a {
-    color: blue;
-  }
-
-  .navbar a.ative {
-    color: red;
-  }
-
-
  
 .buttonlist {
   display: flex;
@@ -27,4 +18,7 @@
 
 .navbutton {
   margin-top: 20px;
+  height: 30px;
+  width: 70px;
+  font-family: 'Ysabeau SC', sans-serif;
 }

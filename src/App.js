@@ -16,7 +16,7 @@ function App() {
     <div className='container'>
     <Nav />
     <div className='info'>
-    <h1>Presley Potter</h1>
+    <h1 className='name'>Presley Potter</h1>
     <p className='bio'>
       Software Engineer at Getty Images with a passion for learning and contributing to meaningful projects. Utilizing enterprise-level languages like JavaScript, React, Python, and CSS to deliver solutions with a customer-first approach.
     </p>
@@ -30,7 +30,9 @@ function App() {
       className='sociallink'
           >
             <TwitterIcon />
-            {`Follow me on Twitter`}
+    
+            <p className='socialdescriptions'>Follow me on Twitter</p>
+            
           </a>
           <a 
             rel="noopener noreferrer"
@@ -39,7 +41,7 @@ function App() {
             className='sociallink'
             >
             <LinkedInIcon/>
-            {'Connect with me on LinkedIn'}
+            <p className='socialdescriptions'>Connect with me on LinkedIn</p>
             </a> 
             <a
             rel="noopener noreferrer"
@@ -48,7 +50,7 @@ function App() {
             className='sociallink'
           >
             <GitHubIcon />
-            {`Find me on GitHub`}
+            <p className='socialdescriptions'>Find me on GitHub</p>
     
           </a>
           <a
@@ -58,15 +60,11 @@ function App() {
             className='sociallink'
             >
               <ResumeIcon />
-              {'Download my resume'}
+              <p className='socialdescriptions'>Download my resume</p>
             </a>
             </div>
             </div>
-            <p>
-      When I'm not coding, I'm probably playing Dungeon's & Dragons. I also love gardening and craft projects.
-    </p>
-
-
+            <p className='bio'> When I'm not coding, I'm probably playing Dungeon's & Dragons. I also love gardening and craft projects.</p>
     </div>
     </div> 
     
