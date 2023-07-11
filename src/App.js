@@ -12,13 +12,12 @@ import {
 function App() {
   return (
     <>
-   
     <div className='container'>
     <Nav />
     <div className='info'>
     <h1 className='name'>Presley Potter</h1>
     <p className='bio'>
-      Software Engineer at Getty Images with a passion for learning and contributing to meaningful projects. Utilizing enterprise-level languages like JavaScript, React, Python, and CSS to deliver solutions with a customer-first approach.
+      Software Engineer intern at Getty Images with a passion for learning and contributing to meaningful projects. Utilizing enterprise-level languages like JavaScript, React, Python, and CSS to deliver solutions with a customer-first approach.
     </p>
     <div className='socials'>
     <ImageContainer />
@@ -67,10 +66,6 @@ function App() {
             <p className='bio'> When I'm not coding, I'm probably playing Dungeon's & Dragons. I also love gardening and craft projects.</p>
     </div>
     </div> 
-    
-    
-    
-
     </>
    
 

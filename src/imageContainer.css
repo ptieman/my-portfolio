@@ -15,3 +15,17 @@
   object-fit: cover;
   border-radius: 50%;
 }
+
+@media screen and (max-width: 415px) {
+  .image-container {
+   display: none;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .image-container {
+  margin-top: 25px;
+   width: 75px;
+   height: 75px;
+  }
+}

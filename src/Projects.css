@@ -1,0 +1,39 @@
+.heading {
+  font-family: 'Ysabeau SC', sans-serif;
+  margin: 20px;
+}
+
+.projcontainer {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px; 
+}
+
+.projheading {
+  font-family: 'Ysabeau SC', sans-serif;
+  margin-top: 0;
+  
+}
+
+.projectcard {
+  border: 3px solid #333333;
+  border-radius: .5%;
+  margin: 20px;
+  padding: 20px;
+}
+
+.projimage {
+  padding: 20px, 20px;
+  width: 100%;
+}
+
+.button {
+  border: 1px solid #333333;
+  box-shadow: 0 0 8px #01162a;
+  background-color: #878787;
+  color: white;
+  border-radius: .5%;
+  padding: 5px;
+  margin: 10px;
+  cursor: pointer;
+}

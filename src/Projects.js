@@ -1,10 +1,10 @@
 import React from "react";
-
 import GrowSmart from './growsmart1.jpg';
 import Ghibli from './ghibli.png';
 import Dropdown from './dropdown.png';
 import Navigation from './navigation.png';
 import Nav from './navbar/navbar';
+import './Projects.css'
 
 
 export default function Projects() {
@@ -44,38 +44,36 @@ export default function Projects() {
   return (
 
     
-    <section>
+    <section className='container'>
       <Nav />
-        <h3 >Professional Contributions</h3>
+      <div className="projcontainer">
+        <h2 className="heading">Professional Contributions</h2>
         {professionalProjectsData.map((project) => (
-      <div key={project.id} >
-        <div >
-        <img src={project.imageUrl} alt={project.description}/>
-        </div>
+      <div key={project.id} className='projectcard'>
+        <img src={project.imageUrl} alt={project.description} className='projimage'/>
         <p>{project.description}</p>
         <div className="project-button-container">
       <a href={project.webUrl}>
-      <button >View on iStock</button>
+      <button type="button" className="button">View on iStock</button>
     </a>
     </div>
       </div> 
     ))}
     <div >
-      <h3 className="font-bold text-3xl font-serif">Personal Projects</h3>
+      <h2 className="heading">Personal Projects</h2>
       {personalProjectsData.map((project) => (
-      <div key={project.id}>
-        <div>
-        <h3 className="font-bold text-3xl font-serif">{project.title}</h3>
-        <img src={project.imageUrl} alt={project.title} />
-        </div>
+      <div key={project.id} className='projectcard'>
+        <h3 className="projheading">{project.title}</h3>
+        <img src={project.imageUrl} alt={project.title} className='projimage' />
         <p>{project.description}</p>
         <div>
       <a href={project.githubUrl}>
-      <button>View on Github</button>
+      <button type="button" className="button">View on Github</button>
     </a>
     </div>
       </div> 
     ))}
+    </div>
     </div>
     </section>
   );
