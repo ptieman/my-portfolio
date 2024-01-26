@@ -4,6 +4,7 @@ import Ghibli from './ghibli.png';
 import Dropdown from './dropdown.png';
 import Navigation from './navigation.png';
 import Nav from './navbar/navbar';
+import GINAV from './GINAV.jpg';
 import './Projects.css'
 
 
@@ -29,12 +30,18 @@ export default function Projects() {
   const professionalProjectsData = [
     {
       id: 1,
+      description: 'Contributed  to the overhaul of Getty Images’ navigation system, enhancing user experience and engagement by implementing an intuitive and user-friendly design. Enables iterative updates to the top navigation, that are intuitive for the customers, and provide a better categorization structure for SEO purposes.',
+      imageUrl: GINAV,
+      webUrl: 'https://www.gettyimages.com' 
+    },
+    {
+      id: 2,
       description: 'A dropdown component that displays the links to Top Image/Video Searches pages for countries that speak the same primary language as the user. Built using React, SCSS, and Ruby on Rails. ',
       imageUrl: Dropdown,
       webUrl: 'https://www.istockphoto.com/most-popular-searches/united-states/images',
     },
     {
-      id: 2,
+      id: 3,
       description: 'Implemented curated content in the top navigation for relevant events and holidays resulting in a 34% year-over-year growth in Google organic clicks and 33% year-over-year growth in impressions. ',
       imageUrl: Navigation,
       webUrl: 'https://www.istockphoto.com/stock-videos/july-4th'
