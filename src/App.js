@@ -17,7 +17,7 @@ function App() {
     <div className='info'>
     <h1 className='name'>Presley Potter</h1>
     <p className='bio'>
-      Software Engineer intern at Getty Images with a passion for learning and contributing to meaningful projects. Utilizing enterprise-level languages like JavaScript, React, Python, and CSS to deliver solutions with a customer-first approach.
+      Software Engineer at Getty Images with a passion for learning and contributing to meaningful projects. Utilizing enterprise-level languages like JavaScript, Typescript, React, and CSS to deliver solutions with a customer-first approach.
     </p>
     <div className='socials'>
     <ImageContainer />
