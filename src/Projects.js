@@ -61,7 +61,7 @@ export default function Projects() {
         <p>{project.description}</p>
         <div className="project-button-container">
       <a href={project.webUrl}>
-      <button type="button" className="button">View on iStock</button>
+      <button type="button" className="button">View</button>
     </a>
     </div>
       </div> 
